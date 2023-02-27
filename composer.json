@@ -1,0 +1,25 @@
+{
+    "name": "maxredemption/maxredemption-payment",
+    "description": "Pay'nUp Integration Payment Module",
+    "require": {
+        "php": "^5.5||^5.6||^7.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Octavio Yndart",
+            "email": "oyndart@ynloultratech.com",
+            "role": "CEO/President"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MaxRedemption\\MaxRedemptionPayment\\": ""
+        }
+    }
+}
